@@ -1,0 +1,1 @@
+import { Rate } from "antd";
