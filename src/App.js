@@ -1,13 +1,10 @@
 import "./App.css";
-// import colorPicker from "./Ant-Design/AntDesign.jsx";
-import { Button } from "antd";
 import { Rate } from "antd";
 import { Image } from "antd";
 
 function App() {
   return (
     <div className="App">
-      {/* <colorPicker /> */}
       <div className="container">
         <div className="flex-box-cards">
           <div className="card">
@@ -22,8 +19,6 @@ function App() {
           </div>
         </div>
       </div>
-
-      {/* <Button type="primary">Only Clickable Button</Button> */}
     </div>
   );
 }
