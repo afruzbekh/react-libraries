@@ -15,7 +15,9 @@ function App() {
                 alt="img"
               />
             </div>
+            <span className="product-name">Square Clear Glass Box</span>
             <Rate allowHalf defaultValue={2.5} />
+            <span className="product-price">$258</span>
           </div>
         </div>
       </div>

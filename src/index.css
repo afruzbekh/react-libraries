@@ -1,13 +1,23 @@
+.flex-box-cards {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  row-gap: 24px;
+  column-gap: 24px;
+  flex-wrap: wrap;
+}
+
 .card {
   padding: 15px;
   backdrop-filter: blur(15px);
-  background-color: rgba(255, 255, 255, 0.4);
+  /* background-color: rgba(255, 255, 255, 0.1); */
+  background-color: #e9e9e9;
   width: 309px;
   min-height: 158px;
   display: flex;
   flex-direction: column;
-  row-gap: 19px;
-  margin: 50px 0;
+  row-gap: 11px;
+  /* margin: 50px 0; */
   border-radius: 20px;
 }
 
@@ -49,4 +59,19 @@
 
 .ant-rate-star-zero .ant-rate-star-first {
   color: #ffffff;
+}
+
+.product-name {
+  margin-top: 8px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #363636;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.product-price {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #000000;
+  font-size: 20px;
+  font-weight: 900;
 }
