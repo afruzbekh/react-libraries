@@ -26,7 +26,6 @@
   border-radius: 14px;
   overflow: hidden;
   width: 100%;
-  /* aspect-ratio: 1 / 3;  */
   height: 420px;
   display: grid;
   place-items: center;
@@ -38,7 +37,6 @@
   height: 100%;
 }
 
-/* Change the color of the filled stars */
 .ant-rate-star-full .ant-rate-star-second {
   color: #f4ce14;
 }
@@ -47,7 +45,6 @@
   color: #f4ce14;
 }
 
-/* Change the color of the half stars */
 .ant-rate-star-half .ant-rate-star-second {
   color: #ffffff;
 }
@@ -56,7 +53,6 @@
   color: #f4ce14;
 }
 
-/* Change the color of the empty stars */
 .ant-rate-star-zero .ant-rate-star-second {
   color: #ffffff;
 }
