@@ -9,7 +9,7 @@
 
 body {
   overflow-x: hidden;
-  /* background: #282828; */
+  background: #282828;
   display: flex;
   justify-content: center;
   align-items: center;
