@@ -13,7 +13,7 @@
   background-color: rgba(255, 255, 255, 0.1);
   background-color: #e9e9e9;
   width: 309px;
-  height: 558px;
+  height: 578px;
   display: flex;
   flex-direction: column;
   row-gap: 11px;
@@ -25,40 +25,45 @@
 .card__image-container {
   border-radius: 14px;
   overflow: hidden;
-  width: 100%;
-  height: 420px;
+  min-width: 100%;
+  min-height: 420px;
   display: grid;
   place-items: center;
 }
-
+.ant-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 .card__image {
   mix-blend-mode: multiply;
   width: 100%;
-  height: 100%;
+  height: 100% !important;
+  object-fit: cover;
 }
 
 .ant-rate-star-full .ant-rate-star-second {
-  color: #f4ce14;
+  color: #f4ce14 !important;
 }
 
 .ant-rate-star-full .ant-rate-star-first {
-  color: #f4ce14;
+  color: #f4ce14 !important;
 }
 
 .ant-rate-star-half .ant-rate-star-second {
-  color: #ffffff;
+  color: #ffffff !important;
 }
 
 .ant-rate-star-half .ant-rate-star-first {
-  color: #f4ce14;
+  color: #f4ce14 !important;
 }
 
 .ant-rate-star-zero .ant-rate-star-second {
-  color: #ffffff;
+  color: #ffffff !important;
 }
 
 .ant-rate-star-zero .ant-rate-star-first {
-  color: #ffffff;
+  color: #ffffff !important;
 }
 
 .product-name {
